@@ -32,5 +32,5 @@ function loadPhoto(e) {
 function updateImage(url) {
   document.getElementById('image').textContent = info;
 }
-
+debugger
 document.getElementById('getButton').addEventListener('click', loadPhoto);
